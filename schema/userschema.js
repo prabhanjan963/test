@@ -22,6 +22,6 @@ const userSchema = new mongoose.Schema({
     }
 })
 
-const user = new mongoose.model('Practiceportfolio',userSchema);
+const user = new mongoose.model('testuser',userSchema);
 
 export default user;
